@@ -1,0 +1,29 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+  
+    padding: 16px;
+    background-color: #77a7eb;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #f9f5f5;
+    text-align: center;
+  }
+  
+  .card p {
+    margin: 8px 0 0;
+    font-size: 1rem;
+    color: #0c0c0c;
+    text-align: center;
+  }
+  
